@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Blackside";
+    src: url('../fonts/Blackside.ttf');
+}
+@font-face {
+    font-family: "EmbossedBlack";
+    src: url("../fonts/EmbossedBlackNormal.ttf");
+}
+@font-face {
+    font-family: "Incised Black";
+    src: url("../fonts/Incised Black.ttf");
+}
+@font-face {
+    font-family: "Plain Black";
+    src: url("../fonts/Plain Black.ttf");
+}
+@font-face {
+    font-family: "Shadowed Black";
+    src: url("../fonts/Shadowed Black.ttf");
+}
+
+@font-face {
+    font-family: "Attack";
+    src: url("../fonts/AttackGraffiti.ttf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Odor+Mean+Chey&display=swap');
