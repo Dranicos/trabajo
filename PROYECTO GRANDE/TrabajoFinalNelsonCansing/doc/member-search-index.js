@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"es.ifp.app.tienda.restcontroller","c":"ProductosRestController","l":"obtenerProductos(int)"},{"p":"es.ifp.app.tienda.restcontroller","c":"ProductosRestController","l":"ProductosRestController()","u":"%3Cinit%3E()"}];updateSearchResults();
