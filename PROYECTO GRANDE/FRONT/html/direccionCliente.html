@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Registrate</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0"/>
+    <link rel="stylesheet" href="../assets/css/signUp.css" />
+</head>
+
+<body>
+    <img class="background" src="../assets/img/ramp.jpg" />
+    <div class="signup">
+        <h2>Direccion del Usuario</h2>
+        <div class="form">
+        <div class="textbox">
+            <input type="text" class="localidad" required />
+            <label>Localidad</label>
+            <span class="material-symbols-outlined"> account_circle </span>
+        </div>
+        <div class="textbox">
+            <input type="text" class="codigo" required />
+            <label>Codigo Postal</label>
+            <span class="material-symbols-outlined"> account_circle </span>
+        </div>
+        <div class="textbox">
+            <input type="text" class="calle" required />
+            <label>Calle</label>
+            <span class="material-symbols-outlined">  account_circle</span>
+        </div>
+        <div class="textbox">
+            <input type="text" class="piso" />
+            <label>Piso</label>
+            <span class="material-symbols-outlined"> account_circle </span>
+        </div>
+        <div class="textbox">
+            <input type="text" class="letra" />
+            <label>Letra</label>
+            <span class="material-symbols-outlined"> account_circle </span>
+        </div>
+        <div class="textbox">
+            <input type="text" class="numero" />
+            <label>Numero</label>
+            <span class="material-symbols-outlined"> account_circle </span>
+        </div>
+        <button onclick="añadirDireccion()">
+            <label>Añadir</label>
+            <span class="material-symbols-outlined"> arrow_forward </span>
+        </button>
+        <a href="datosCliente.html"><button>Volver</button></a>
+    </div>
+    </div>
+    <script src="../js/direcciones.js"></script>
+</body>
+</html>

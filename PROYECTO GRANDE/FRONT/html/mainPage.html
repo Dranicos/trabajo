@@ -20,15 +20,15 @@
                 <i class="fa-solid fa-bars"></i>
             </label>
             <ul class="links">
-                <li><a class="active" href="">Inicio</a></li>
-                <li><a href="">Bicis</a></li>
-                <li><a href="">Marcos</a></li>
-                <li><a href="">Accesorios</a></li>
+                <li><a class="active" href="mainPage.html">Inicio</a></li>
+                <li><a href="bicis.html">Bicis</a></li>
+                <li><a href="marcos.html">Marcos</a></li>
+                <li><a href="accesorios.html">Accesorios</a></li>
                 <li><a href="">Información</a></li>
             </ul>
             <div class="buttons">
-                <i class="fa-solid fa-user"></i>
-                <i class="fa-solid fa-cart-shopping"></i>
+                <a href="datosCliente.html"><i class="fa-solid fa-user"></i></a>
+                <a href="carrito.html"><i class="fa-solid fa-cart-shopping"></i></a>
             </div>
         </div>
     </nav>
@@ -37,84 +37,54 @@
     <section>
         <div class="carrusel-container">
             <div class="carrusel">
-              <div class="carrusel-item">
-                <img src="/assets/img/img-redbull-fly.jpg" alt="Imagen 1">
-              </div>
-              <div class="carrusel-item">
-                <img src="/assets/img/ramp.jpg" alt="Imagen 2">
-              </div>
-              <div class="carrusel-item">
-                <img src="/assets/img/redbull-ship.jpg" alt="Imagen 3">
-              </div>
-              <div class="carrusel-item">
-                <img src="/assets/img/street.avif" alt="Imagen 4">
-              </div>
+            <div class="carrusel-item">
+                <img src="../assets/img/img-redbull-fly.jpg" alt="Imagen 1">
+            </div>
+            <div class="carrusel-item">
+                <img src="../assets/img/ramp.jpg" alt="Imagen 2">
+            </div>
+            <div class="carrusel-item">
+                <img src="../assets/img/redbull-ship.jpg" alt="Imagen 3">
+            </div>
+            <div class="carrusel-item">
+                <img src="../assets/img/street.avif" alt="Imagen 4">
+            </div>
             </div>
             <div class="carrusel-indicadores"></div>
         </div>
-        <script src="/js/mainPage.js"></script>
-
-        <p class="destacados">Productos Destacados</p>
-        <div class="productos">
-            <div class="producto">
-                <img src="/assets/img/bici.png">
-                <h3>Nombre del Producto</h3>
-                <p>Precio: $XX</p>
-                <button>Agregar al Carrito</button>
-            </div>
-            <div class="producto">
-                <img src="/assets/img/bici.png">
-                <h3>Nombre del Producto</h3>
-                <p>Precio: $XX</p>
-                <button>Agregar al Carrito</button>
-            </div>
-            <div class="producto">
-                <img src="/assets/img/bici.png">
-                <h3>Nombre del Producto</h3>
-                <p>Precio: $XX</p>
-                <button>Agregar al Carrito</button>
-            </div>
-            <div class="producto">
-                <img src="/assets/img/bici.png">
-                <h3>Nombre del Producto</h3>
-                <p>Precio: $XX</p>
-                <button>Agregar al Carrito</button>
-            </div>
-            <div class="producto">
-                <img src="/assets/img/bici.png">
-                <h3>Nombre del Producto</h3>
-                <p>Precio: $XX</p>
-                <button>Agregar al Carrito</button>
-            </div>
-            <div class="producto">
-                <img src="/assets/img/bici.png">
-                <h3>Nombre del Producto</h3>
-                <p>Precio: $XX</p>
-                <button>Agregar al Carrito</button>
-            </div>
-            <div class="producto">
-                <img src="/assets/img/bici.png">
-                <h3>Nombre del Producto</h3>
-                <p>Precio: $XX</p>
-                <button>Agregar al Carrito</button>
-            </div>
-            <div class="producto">
-                <img src="/assets/img/bici.png">
-                <h3>Nombre del Producto</h3>
-                <p>Precio: $XX</p>
-                <button>Agregar al Carrito</button>
-            </div> 
+        <p class="destacados">Quienes Somos</p>
+        <p class="texto">
+            Nuestra historia comenzó hace más de una década cuando un grupo de amigos decidió unir su amor por las 
+            bicicletas con su deseo de crear un negocio que promoviera un estilo de vida saludable y ecológico. A partir de entonces, hemos trabajado incansablemente para ofrecer productos 
+            y servicios de alta calidad que satisfagan las necesidades de nuestros clientes y contribuyan a construir un futuro más verde y sustentable.
+            En Shadow creemos que cada bicicleta es una obra de arte única, 
+            y nos esforzamos por ofrecer una amplia variedad de modelos y estilos que se ajusten a las necesidades 
+            y gustos de cada persona. Trabajamos con marcas líderes en la industria para ofrecer bicicletas de alta calidad 
+            y durabilidad, así como también una amplia gama de accesorios, piezas y herramientas para mantener tu bicicleta en óptimas condiciones.
+        </p>
+        <p class="destacados">Bicis</p>
+        <div class="productos bici">
         </div>
-        <button>Mostrar más</button>
+        <a href="bicis.html"><button class="mostrar" >Mostrar más</button></a>
+        <p class="destacados">Marcos</p>
 
+        <div class="productos marco">
+        </div>
+        <a href="marcos.html"><button class="mostrar">Mostrar más</button></a>
+        <p class="destacados">Accesorios</p>
+
+        <div class="productos accesorio">
+        </div>    
+        <a href="accesorios.html"><button class="mostrar">Mostrar más</button></a>
     </section>
     <!-- carrusel -->
 
-
-
-
     <footer>
-        FOOTER
+        <div class="logo">
+            <img src="../assets/img/logoGrande.png" alt="">
+        </div>
     </footer>
+    
+    <script src="../js/mainPage.js"></script>
 </body>
 </html>
