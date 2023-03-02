@@ -1,1 +1,5 @@
+es.ifp.app.tienda
+es.ifp.app.tienda.modelo.entity
+es.ifp.app.tienda.modelo.service
+es.ifp.app.tienda.repository
 es.ifp.app.tienda.restcontroller

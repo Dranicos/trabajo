@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"es.ifp.app.tienda.restcontroller"}];updateSearchResults();
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"es.ifp.app.tienda"},{"l":"es.ifp.app.tienda.modelo.entity"},{"l":"es.ifp.app.tienda.modelo.service"},{"l":"es.ifp.app.tienda.repository"},{"l":"es.ifp.app.tienda.restcontroller"}];updateSearchResults();
